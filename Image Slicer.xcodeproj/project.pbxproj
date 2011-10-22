@@ -10,6 +10,7 @@
 		823EE3131452B7D500575B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823EE3121452B7D500575B12 /* Foundation.framework */; };
 		823EE3161452B7D500575B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823EE3151452B7D500575B12 /* main.m */; };
 		823EE31A1452B7D500575B12 /* Image_Slicer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 823EE3191452B7D500575B12 /* Image_Slicer.1 */; };
+		823EE3211452BC0F00575B12 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823EE3201452BC0F00575B12 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		823EE30E1452B7D500575B12 /* Image Slicer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Image Slicer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823EE30E1452B7D500575B12 /* image-slicer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "image-slicer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		823EE3121452B7D500575B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		823EE3151452B7D500575B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		823EE3181452B7D500575B12 /* Image Slicer-Prefix.pch */ = {isa = PBXFileReference; path = "Image Slicer-Prefix.pch"; sourceTree = "<group>"; };
+		823EE3181452B7D500575B12 /* Image Slicer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Slicer-Prefix.pch"; sourceTree = "<group>"; };
 		823EE3191452B7D500575B12 /* Image_Slicer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Image_Slicer.1; sourceTree = "<group>"; };
+		823EE3201452BC0F00575B12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823EE3211452BC0F00575B12 /* AppKit.framework in Frameworks */,
 				823EE3131452B7D500575B12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +60,7 @@
 		823EE30F1452B7D500575B12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				823EE30E1452B7D500575B12 /* Image Slicer */,
+				823EE30E1452B7D500575B12 /* image-slicer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +68,7 @@
 		823EE3111452B7D500575B12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				823EE3201452BC0F00575B12 /* AppKit.framework */,
 				823EE3121452B7D500575B12 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -105,7 +109,7 @@
 			);
 			name = "Image Slicer";
 			productName = "Image Slicer";
-			productReference = 823EE30E1452B7D500575B12 /* Image Slicer */;
+			productReference = 823EE30E1452B7D500575B12 /* image-slicer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +202,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "image-slicer";
 			};
 			name = Debug;
 		};
@@ -207,7 +211,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "image-slicer";
 			};
 			name = Release;
 		};
