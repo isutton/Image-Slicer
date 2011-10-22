@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		823EE3131452B7D500575B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823EE3121452B7D500575B12 /* Foundation.framework */; };
 		823EE3161452B7D500575B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823EE3151452B7D500575B12 /* main.m */; };
-		823EE31A1452B7D500575B12 /* Image_Slicer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 823EE3191452B7D500575B12 /* Image_Slicer.1 */; };
+		823EE31A1452B7D500575B12 /* image-slicer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 823EE3191452B7D500575B12 /* image-slicer.1 */; };
 		823EE3211452BC0F00575B12 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823EE3201452BC0F00575B12 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				823EE31A1452B7D500575B12 /* Image_Slicer.1 in CopyFiles */,
+				823EE31A1452B7D500575B12 /* image-slicer.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -31,7 +31,7 @@
 		823EE3121452B7D500575B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		823EE3151452B7D500575B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		823EE3181452B7D500575B12 /* Image Slicer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Slicer-Prefix.pch"; sourceTree = "<group>"; };
-		823EE3191452B7D500575B12 /* Image_Slicer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Image_Slicer.1; sourceTree = "<group>"; };
+		823EE3191452B7D500575B12 /* image-slicer.1 */ = {isa = PBXFileReference; path = "image-slicer.1"; sourceTree = "<group>"; };
 		823EE3201452BC0F00575B12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				823EE3151452B7D500575B12 /* main.m */,
-				823EE3191452B7D500575B12 /* Image_Slicer.1 */,
+				823EE3191452B7D500575B12 /* image-slicer.1 */,
 				823EE3171452B7D500575B12 /* Supporting Files */,
 			);
 			path = "Image Slicer";
@@ -234,6 +234,7 @@
 				823EE31F1452B7D500575B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
