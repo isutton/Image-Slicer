@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823EE3131452B7D500575B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823EE3121452B7D500575B12 /* Foundation.framework */; };
+		823EE3161452B7D500575B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823EE3151452B7D500575B12 /* main.m */; };
+		823EE31A1452B7D500575B12 /* Image_Slicer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 823EE3191452B7D500575B12 /* Image_Slicer.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		823EE30C1452B7D500575B12 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				823EE31A1452B7D500575B12 /* Image_Slicer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		823EE30E1452B7D500575B12 /* Image Slicer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Image Slicer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823EE3121452B7D500575B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		823EE3151452B7D500575B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		823EE3181452B7D500575B12 /* Image Slicer-Prefix.pch */ = {isa = PBXFileReference; path = "Image Slicer-Prefix.pch"; sourceTree = "<group>"; };
+		823EE3191452B7D500575B12 /* Image_Slicer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Image_Slicer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823EE30B1452B7D500575B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EE3131452B7D500575B12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823EE3031452B7D400575B12 = {
+			isa = PBXGroup;
+			children = (
+				823EE3141452B7D500575B12 /* Image Slicer */,
+				823EE3111452B7D500575B12 /* Frameworks */,
+				823EE30F1452B7D500575B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823EE30F1452B7D500575B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823EE30E1452B7D500575B12 /* Image Slicer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823EE3111452B7D500575B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				823EE3121452B7D500575B12 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823EE3141452B7D500575B12 /* Image Slicer */ = {
+			isa = PBXGroup;
+			children = (
+				823EE3151452B7D500575B12 /* main.m */,
+				823EE3191452B7D500575B12 /* Image_Slicer.1 */,
+				823EE3171452B7D500575B12 /* Supporting Files */,
+			);
+			path = "Image Slicer";
+			sourceTree = "<group>";
+		};
+		823EE3171452B7D500575B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				823EE3181452B7D500575B12 /* Image Slicer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823EE30D1452B7D500575B12 /* Image Slicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823EE31D1452B7D500575B12 /* Build configuration list for PBXNativeTarget "Image Slicer" */;
+			buildPhases = (
+				823EE30A1452B7D500575B12 /* Sources */,
+				823EE30B1452B7D500575B12 /* Frameworks */,
+				823EE30C1452B7D500575B12 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Slicer";
+			productName = "Image Slicer";
+			productReference = 823EE30E1452B7D500575B12 /* Image Slicer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823EE3051452B7D400575B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = igorsutton.com;
+			};
+			buildConfigurationList = 823EE3081452B7D400575B12 /* Build configuration list for PBXProject "Image Slicer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 823EE3031452B7D400575B12;
+			productRefGroup = 823EE30F1452B7D500575B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823EE30D1452B7D500575B12 /* Image Slicer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823EE30A1452B7D500575B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EE3161452B7D500575B12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		823EE31B1452B7D500575B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		823EE31C1452B7D500575B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		823EE31E1452B7D500575B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		823EE31F1452B7D500575B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Slicer/Image Slicer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823EE3081452B7D400575B12 /* Build configuration list for PBXProject "Image Slicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EE31B1452B7D500575B12 /* Debug */,
+				823EE31C1452B7D500575B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823EE31D1452B7D500575B12 /* Build configuration list for PBXNativeTarget "Image Slicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EE31E1452B7D500575B12 /* Debug */,
+				823EE31F1452B7D500575B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823EE3051452B7D400575B12 /* Project object */;
+}
